@@ -1,9 +1,10 @@
+package JsonPackage;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -30,7 +31,7 @@ public class ReadDataFromJson {
             String city= (String) address.get("city");
             String state= (String) address.get("state");
 
-            System.out.println("Address of " +i+ " is ...");
+            System.out.println("JsonPackage.Address of " +i+ " is ...");
             System.out.println("Street "+street);
             System.out.println("City " +city);
             System.out.println("State " +state);

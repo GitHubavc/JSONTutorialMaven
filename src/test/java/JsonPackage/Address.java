@@ -1,3 +1,5 @@
+package JsonPackage;
+
 public class Address {
     String street;
     String city;

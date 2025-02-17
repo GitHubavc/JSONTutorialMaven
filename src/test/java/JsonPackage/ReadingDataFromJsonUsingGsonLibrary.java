@@ -1,3 +1,5 @@
+package JsonPackage;
+
 import com.google.gson.Gson;
 
 import java.io.FileNotFoundException;
@@ -13,7 +15,7 @@ public class ReadingDataFromJsonUsingGsonLibrary {
         //Access data
         System.out.println("First Name: "+person.getFirstName());
         System.out.println("Last Name: "+person.getLastName());
-        System.out.println("Address...");
+        System.out.println("JsonPackage.Address...");
         for(Address address:person.getAddress()){
             System.out.println("Street: " +address.getStreet());
             System.out.println("City: " +address.getCity());

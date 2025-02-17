@@ -1,3 +1,5 @@
+package JsonPackage;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

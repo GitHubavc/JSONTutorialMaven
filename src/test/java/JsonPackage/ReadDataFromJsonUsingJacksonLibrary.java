@@ -1,3 +1,5 @@
+package JsonPackage;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
@@ -13,7 +15,7 @@ public class ReadDataFromJsonUsingJacksonLibrary {
         //Access data
         System.out.println("First Name: "+person.getFirstName());
         System.out.println("Last Name: "+person.getLastName());
-        System.out.println("Address...");
+        System.out.println("JsonPackage.Address...");
         for(Address address:person.getAddress()){
             System.out.println("Street: " +address.getStreet());
             System.out.println("City: " +address.getCity());
