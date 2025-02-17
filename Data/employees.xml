@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <id>101</id>
+        <firstname>John</firstname>
+        <lastname>Doe</lastname>
+        <job>Software Engineer</job>
+        <salary>75000</salary>
+    </employee>
+    <employee>
+        <id>102</id>
+        <firstname>Alice</firstname>
+        <lastname>Smith</lastname>
+        <job>QA Analyst</job>
+        <salary>65000</salary>
+    </employee>
+    <employee>
+        <id>103</id>
+        <firstname>Michael</firstname>
+        <lastname>Johnson</lastname>
+        <job>Project Manager</job>
+        <salary>90000</salary>
+    </employee>
+</employees>
